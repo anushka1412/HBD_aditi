@@ -80,9 +80,9 @@ const _slideTiga = function () {
       setTimeout(function () {
         slideTiga.remove();
         _slideEmpat();
-      }, 1000);
+      }, 100);
     })
-  }, 43000);
+  }, 100);
 }
 
 function getRandomPosition(element) {
